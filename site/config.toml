@@ -1,3 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+
+# Define output types used in this site
+output = ["html", "json", "js", "rss", "svg"]
+
+# Designate certain output types as text-based
+outputText = ["json", "js"
